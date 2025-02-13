@@ -3,10 +3,39 @@ body {
   font-weight: 500;
 }
 
+@media (min-width: 576px) {
+  .minibox {
+    background-color: yellow;
+    border: 3px solid;
+  }
+  h1 {
+    font-size: 20px;
+    color: green;
+  }
+}
+@media (min-width: 768px) {
+  .minibox {
+    background-color: green;
+    border: 6px solid;
+  }
+  h1 {
+    font-size: 40px;
+    color: yellow;
+  }
+}
+@media (min-width: 992px) {
+  .minibox {
+    background-color: purple;
+    border: 10px solid;
+  }
+  h1 {
+    font-size: 70px;
+    color: gray;
+  }
+}
 #responsiv .box .minibox {
   width: 100px;
   height: 100px;
-  background-color: #f5d12f;
   border: 1px solid #515703;
   transition: 2s;
   display: inline-block;
@@ -14,10 +43,10 @@ body {
 #responsiv .box .minibox:hover {
   width: 200px;
   height: 200px;
-  background-color: #a4f808;
   border: 5px solid #f5d12f;
   border-radius: 50%;
   transform: rotate(360deg);
+  opacity: 0.4;
 }
 #responsiv .box .minibox:hover h1 {
   text-align: center;
