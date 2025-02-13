@@ -34,8 +34,6 @@ body {
   }
 }
 #responsiv .box .minibox {
-  width: 100px;
-  height: 100px;
   border: 1px solid #515703;
   transition: 2s;
   display: inline-block;
