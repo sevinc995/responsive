@@ -3,35 +3,9 @@ body {
   font-weight: 500;
 }
 
-@media (min-width: 576px) {
-  .minibox {
-    background-color: yellow;
-    border: 3px solid;
-  }
-  h1 {
-    font-size: 20px;
-    color: green;
-  }
-}
-@media (min-width: 768px) {
-  .minibox {
-    background-color: green;
-    border: 6px solid;
-  }
-  h1 {
-    font-size: 40px;
-    color: yellow;
-  }
-}
-@media (min-width: 992px) {
-  .minibox {
-    background-color: purple;
-    border: 10px solid;
-  }
-  h1 {
-    font-size: 70px;
-    color: gray;
-  }
+#responsiv .box .btn:hover {
+  background-color: #ff0000;
+  color: white;
 }
 #responsiv .box .minibox {
   border: 1px solid #515703;
@@ -49,4 +23,68 @@ body {
 #responsiv .box .minibox:hover h1 {
   text-align: center;
   transform: translate(0px, 50px);
+}
+
+.minibox {
+  width: 30px;
+  height: 30px;
+}
+
+.btn {
+  background-color: #f737dd;
+  width: 70px;
+  height: 35px;
+  margin: 20px;
+}
+
+@media (min-width: 576px) {
+  .minibox {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 3px solid;
+  }
+  h1 {
+    font-size: 20px;
+    color: green;
+  }
+  .btn {
+    background-color: #82ce09;
+    width: 70px;
+    height: 35px;
+  }
+}
+@media (min-width: 768px) {
+  .minibox {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 6px solid;
+  }
+  h1 {
+    font-size: 40px;
+    color: yellow;
+  }
+  .btn {
+    background-color: #07e7f7;
+    width: 70px;
+    height: 35px;
+  }
+}
+@media (min-width: 992px) {
+  .minibox {
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    border: 10px solid;
+  }
+  h1 {
+    font-size: 70px;
+    color: gray;
+  }
+  .btn {
+    background-color: #07d3f7;
+    width: 80px;
+    height: 45px;
+  }
 }/*# sourceMappingURL=style.css.map */
